@@ -1,0 +1,22 @@
+{
+  "name": "task-tracker-frontend",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "make-api": "sta -p http://localhost:8000/openapi.json -o src/lib --templates openapi_templates/base"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@tsconfig/svelte": "^3.0.0",
+    "svelte": "^3.49.0",
+    "svelte-preprocess": "^4.10.7",
+    "swagger-typescript-api": "^9.3.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.0"
+  }
+}
