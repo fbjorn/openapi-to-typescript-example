@@ -25,8 +25,8 @@ yarn dev
 #### Generate Typescript Client 
 
 ```shell
-// 1. Run backend
+# 1. Run backend
 
-// 2. Execute:
+# 2. Execute:
 yarn make-api
 ```
